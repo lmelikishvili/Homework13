@@ -1,0 +1,30 @@
+
+[
+  {
+    "field_id":1,
+    "hint":"UserName",
+    "field_type":"input",
+    "keyboard":"text",
+    "required":false,
+    "is_active":true,
+    "icon":"https://jemala.png"
+  },
+  {
+    "field_id":2,
+    "hint":"Email",
+    "field_type":"input",
+    "required":true,
+    "keyboard":"text",
+    "is_active":true,
+    "icon":"https://jemala.png"
+  },
+  {
+    "field_id":3,
+    "hint":"phone",
+    "field_type":"input",
+    "required":true,
+    "keyboard":"number",
+    "is_active":true,
+    "icon":"https://jemala.png"
+  }
+]
