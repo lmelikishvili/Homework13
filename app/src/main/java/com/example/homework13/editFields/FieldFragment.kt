@@ -24,7 +24,6 @@ class FieldFragment : BaseFragment<FragmentFieldBinding>(FragmentFieldBinding::i
 
         val jsonFileString = readJsonFromResources(resources, R.raw.data)
         var dataList = JSONArray(jsonFileString)
-        println(dataList)
         for (i in 0..<dataList.length()){
             val fItem: JSONObject = dataList.getJSONObject(i)
             fields.add(Field(fItem.getString("field_id").toInt(),fItem.getString("hint"),fItem.getString("field_type"),fItem.getString("is_active")))

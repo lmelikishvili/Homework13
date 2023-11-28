@@ -8,8 +8,6 @@ import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.example.homework13.R
 import com.example.homework13.databinding.FieldItemBinding
-import java.io.InputStream
-
 
 class FiledAdapter: ListAdapter<Field, FiledAdapter.FiledVH>(object :
 
@@ -49,7 +47,6 @@ class FiledAdapter: ListAdapter<Field, FiledAdapter.FiledVH>(object :
             with(binding){
                 edField.hint = field.hint
             }
-
         }
     }
 }
