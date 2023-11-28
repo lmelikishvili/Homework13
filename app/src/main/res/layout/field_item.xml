@@ -5,15 +5,16 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
 
-
     <EditText
         android:id="@+id/edField"
         android:inputType="text"
         android:hint="UserName"
-        android:layout_width="wrap_content"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
+        android:padding="10dp"
+        android:drawableEnd="@drawable/ic_account"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
