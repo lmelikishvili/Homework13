@@ -47,6 +47,14 @@ class FiledAdapter: ListAdapter<Field, FiledAdapter.FiledVH>(object :
             with(binding){
                 edField.hint = field.hint
             }
+
         }
+
+        //need Fix this
+        fun emptyCheck(){
+            var item = currentList[adapterPosition]
+
+        }
+
     }
 }
